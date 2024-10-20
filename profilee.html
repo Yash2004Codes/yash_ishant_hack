@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Provider Profile</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        /* Basic reset */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            color: #333;
+            line-height: 1.6;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 30px auto;
+            padding: 20px;
+            background: white;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        h2 {
+            margin-bottom: 20px;
+            color: #2980b9;
+            text-align: center;
+        }
+
+        .profile-detail {
+            margin-bottom: 15px;
+        }
+
+        .profile-detail label {
+            font-weight: bold;
+        }
+
+        .contact-info {
+            margin-top: 20px;
+            text-align: center;
+        }
+
+        a {
+            display: inline-block;
+            margin-top: 20px;
+            padding: 10px 15px;
+            background-color: #2980b9;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            text-align: center;
+            transition: background-color 0.3s;
+        }
+
+        a:hover {
+            background-color: #3498db;
+        }
+
+        /* Responsive design */
+        @media (max-width: 600px) {
+            h2 {
+                font-size: 24px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h2>Provider Profile</h2>
+
+        <div class="profile-detail">
+            <label for="description">Description:</label>
+            <p id="description">Experienced legal professional with expertise in various fields, dedicated to providing exceptional service to clients.</p>
+        </div>
+
+        <div class="profile-detail">
+            <label for="education">Education:</label>
+            <p id="education">Bachelor of Laws (LL.B) - XYZ University</p>
+        </div>
+
+        <div class="profile-detail">
+            <label for="linkedin">LinkedIn:</label>
+            <p id="linkedin"><a href="https://www.linkedin.com/in/example-profile" target="_blank">LinkedIn Profile</a></p>
+        </div>
+
+        <div class="profile-detail">
+            <label for="phone">Phone Number:</label>
+            <p id="phone">+1 234 567 8901</p>
+        </div>
+
+        <div class="contact-info">
+            <a href="home.html">Back to Home</a>
+        </div>
+    </div>
+</body>
+</html>

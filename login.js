@@ -9,7 +9,7 @@ document.getElementById('loginForm').addEventListener('submit', function(e) {
     if (email === "user@example.com" && password === "user123" && role === "user") {
         window.location.href = "user-dashboard.html";  // Redirect to User Dashboard
     } else if (email === "provider@example.com" && password === "provider123" && role === "provider") {
-        window.location.href = "profile.html";  // Redirect to Service Provider Profile
+        window.location.href = "dashboard.html";  // Redirect to Service Provider Profile
     } else {
         alert("Invalid login credentials or role.");
     }
