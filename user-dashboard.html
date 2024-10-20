@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="proj.css">
+    <title>User Dashboard</title>
+</head>
+<body>
+    <header>
+        <h1>Welcome to the User Dashboard</h1>
+        <p>Select a Service Provider Below</p>
+    </header>
+
+    <main>
+        <div class="service-provider-list">
+            <div class="provider-card" onclick="selectProvider('Provider 1')">
+                <div class="provider-image">
+                    <img src="Minithon/provider1.jpg" alt="Provider 1">
+                </div>
+                <div class="provider-info">
+                    <h3>Provider 1</h3>
+                    <p>Expert in family law</p>
+                    <div class="rating">
+                        <span>⭐⭐⭐⭐☆</span>
+                        <span>(4.0)</span>
+                    </div>
+                    <button class="select-provider">Select</button>
+                </div>
+            </div>
+
+            <div class="provider-card" onclick="selectProvider('Provider 2')">
+                <div class="provider-image">
+                    <img src="Minithon/provider2.jfif" alt="Provider 2">
+                </div>
+                <div class="provider-info">
+                    <h3>Provider 2</h3>
+                    <p>Expert in business law</p>
+                    <div class="rating">
+                        <span>⭐⭐⭐⭐⭐</span>
+                        <span>(5.0)</span>
+                    </div>
+                    <button class="select-provider">Select</button>
+                </div>
+            </div>
+
+            <div class="provider-card" onclick="selectProvider('Provider 3')">
+                <div class="provider-image">
+                    <img src="Minithon/provider3.jfif" alt="Provider 3">
+                </div>
+                <div class="provider-info">
+                    <h3>Provider 3</h3>
+                    <p>Expert in civil law</p>
+                    <div class="rating">
+                        <span>⭐⭐⭐⭐</span>
+                        <span>(4.5)</span>
+                    </div>
+                    <button class="select-provider">Select</button>
+                </div>
+            </div>
+
+            <div class="provider-card" onclick="selectProvider('Provider 4')">
+                <div class="provider-image">
+                    <img src="Minithon/provider4.jfif" alt="Provider 4">
+                </div>
+                <div class="provider-info">
+                    <h3>Provider 4</h3>
+                    <p>Expert in criminal law</p>
+                    <div class="rating">
+                        <span>⭐⭐⭐</span>
+                        <span>(3.5)</span>
+                    </div>
+                    <button class="select-provider">Select</button>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Legal Marketplace. All rights reserved.</p>
+    </footer>
+
+    <script src="user-dash.js"></script>
+</body>
+</html>
